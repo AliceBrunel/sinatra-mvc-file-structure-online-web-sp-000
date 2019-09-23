@@ -4,17 +4,15 @@ class Dog
   
   @@all = []
   
-  def initialize
-    dog = self.new(name, breed, age)
+  def initialize(name, breed, age)
     @name = name 
     @breed = breed 
     @age = age 
-    
-    @@all << dog
   end
   
   def self.all 
     @@all
   end
+
 
 end
